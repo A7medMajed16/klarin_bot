@@ -1,0 +1,16 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+
+  image: "lib/core/common/assets/images/splash_screen_logo_ios.png"
+  branding: "lib/core/common/assets/images/brand.png"
+  color: "#800000"
+  branding_bottom_padding: 24
+
+  android_12:
+    color: "#800000"
+    image: "lib/core/common/assets/images/splash_screen_logo_android.png"
+    branding: "lib/core/common/assets/images/brand.png"
+#dart run flutter_native_splash:create --path=native_splash_screen_config.yaml
