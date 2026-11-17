@@ -1,6 +1,6 @@
 class AppStrings {
   //**************** App Config ****************//
-  static const String appName = 'Alfares Pro Merchant';
+  static const String appName = 'Klarin Bot';
   static const String arabicFontFamily = 'SomarSans';
 
   //**************** APIs Strings ****************//
@@ -19,13 +19,10 @@ class AppStrings {
   static const String heroAuthButton = 'hero_auth_button';
   static const String heroFilterButton = 'hero_filter_button';
   static const String heroProfileImage = 'hero_profile_image';
-  static const String heroWalletAddBalance =
-      'hero_wallet_add_balance';
-  static const String heroMySubscriptionsHeroTag =
-      'hero_my_subscriptions';
+  static const String heroWalletAddBalance = 'hero_wallet_add_balance';
+  static const String heroMySubscriptionsHeroTag = 'hero_my_subscriptions';
   static const String heroProfileHeroTag = 'hero_profile';
   static const String heroAddSubscription = 'hero_add_subscription';
   static const String heroMyTripsHeroTag = 'hero_my_trips';
-  static const String heroMyTripsFilterHeroTag =
-      'hero_my_trips_filter';
+  static const String heroMyTripsFilterHeroTag = 'hero_my_trips_filter';
 }
