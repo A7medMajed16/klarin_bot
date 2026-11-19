@@ -96,7 +96,11 @@ class App extends StatelessWidget {
       builder: (context, Widget? child) {
         return MaterialApp.router(
           // Integrate EasyLocalization delegates for multi-language support
-          localizationsDelegates: context.localizationDelegates,
+          localizationsDelegates: [
+            ...context.localizationDelegates,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
           // Define supported locales from EasyLocalization
           supportedLocales: context.supportedLocales,
           // Set current active locale

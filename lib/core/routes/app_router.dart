@@ -1,6 +1,8 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:klarin_bot/core/routes/app_router.gr.dart';
 
 import 'app_route_definitions.dart';
+import 'routes.dart';
 
 final appRouter = AppRouter();
 
@@ -11,11 +13,11 @@ final _appRouteTable = <AppRouteDefinition>[
   //   path: Routes.imageViewer,
   //   page: ImageViewerScreenRoute.page,
   // ),
-  // AppRouteDefinition(
-  //   path: Routes.splash,
-  //   page: SplashScreenRoute.page,
-  //   initial: true,
-  // ),
+  AppRouteDefinition(
+    path: Routes.splash,
+    page: SplashScreenRoute.page,
+    initial: true,
+  ),
 ];
 
 @AutoRouterConfig(replaceInRouteName: 'Screen,Page,Route')
