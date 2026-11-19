@@ -241,7 +241,7 @@
 //       AndroidUiSettings(
 //         toolbarTitle: configuration.title,
 //         statusBarLight: false,
-//         toolbarColor: AppColors.primerColor,
+//         toolbarColor: AppColors.accent,
 //         toolbarWidgetColor: Colors.white,
 //         lockAspectRatio: true,
 //         cropStyle: configuration.style,
@@ -446,7 +446,7 @@
 //   @override
 //   Widget build(BuildContext context) {
 //     final isDarkMode = context.isDarkMode;
-//     final foregroundColor = isDarkMode ? AppColors.whiteD5 : AppColors.black0D;
+//     final foregroundColor = isDarkMode ? AppColors.grayE4 : AppColors.black0D;
 
 //     return ClipRRect(
 //       borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
@@ -522,7 +522,7 @@
 //   Widget build(BuildContext context) {
 //     return ListTile(
 //       onTap: onTap,
-//       splashColor: AppColors.primerColor.withValues(alpha: 0.3),
+//       splashColor: AppColors.accent.withValues(alpha: 0.3),
 //       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
 //       leading: Icon(icon, color: foregroundColor),
 //       title: Text(title, style: 16.semiBold),

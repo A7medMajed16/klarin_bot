@@ -54,7 +54,7 @@ class DownloadAppBarProgress extends StatelessWidget implements PreferredSizeWid
                     isDarkMode ? AppColors.gray38 : AppColors.whitE5,
                 color: status.isFailure
                     ? AppColors.redB4
-                    : AppColors.primerColor,
+                    : AppColors.accent,
               ),
             ],
           ),

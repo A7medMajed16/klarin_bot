@@ -346,7 +346,7 @@ class _CustomDropButtonState extends State<CustomDropButton> {
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(widget.radius!),
         borderSide: const BorderSide(
-          color: AppColors.primerColor,
+          color: AppColors.accent,
           width: 1.5,
         ),
       ),

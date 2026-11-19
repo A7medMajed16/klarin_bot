@@ -17,7 +17,7 @@ class CustomRefreshIndicator extends StatelessWidget {
   Widget build(BuildContext context) {
     return LiquidPullToRefresh(
       onRefresh: () async => await onRefresh(),
-      color: AppColors.primerColor,
+      color: AppColors.accent,
       backgroundColor: AppColors.originalWhite,
       height: 0.1.sh,
       showChildOpacityTransition: false,

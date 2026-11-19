@@ -58,7 +58,7 @@ class App extends StatelessWidget {
                 data: CupertinoThemeData(
                   brightness: brightness,
                   // Set primary color for iOS native components
-                  primaryColor: AppColors.primerColor,
+                  primaryColor: AppColors.accent,
                   // Set background color for scaffold
                   scaffoldBackgroundColor: isDarkMode
                       ? AppColors.black0D

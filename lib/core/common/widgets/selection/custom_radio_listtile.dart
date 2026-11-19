@@ -79,7 +79,7 @@ class CustomRadioListtile<T> extends StatelessWidget {
                   color: Colors.white,
                   border: Border.all(
                     color: isSelected
-                        ? AppColors.primerColor
+                        ? AppColors.accent
                         : AppWidgetTheme.textFieldBorderColor,
                     width: 2,
                   ),
@@ -99,7 +99,7 @@ class CustomRadioListtile<T> extends StatelessWidget {
                             height: 8,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              gradient: AppColors.primerGradient,
+                              color: AppColors.accent,
                             ),
                           )
                         : SizedBox(

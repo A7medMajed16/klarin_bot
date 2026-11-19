@@ -17,14 +17,14 @@ abstract class AppWidgetTheme {
   static const Color textFieldDisabledFillColor = AppColors.grayFD;
   static const Color textFieldBorderColor = AppColors.grayE4;
   static const Color textFieldFocusBorderColor =
-      AppColors.primerColor;
+      AppColors.accent;
   static const Color textFieldErrorBorderColor =
       AppColors.originalRed;
   static const Color textFieldHintColor = AppColors.gray71;
   static const Color textFieldDisabledHintColor = AppColors.grayB6;
   static const Color textFieldCursorColor = AppColors.originalBlack;
   static const Color textFieldErrorTextColor = AppColors.originalRed;
-  static const Color textFieldHoverColor = AppColors.purple97B10;
+  static const Color textFieldHoverColor = AppColors.accentB10;
   static const Color textFieldTitleColor = AppColors.black27;
   static const Color textFieldPrefixIconColor = AppColors.gray99;
 
@@ -34,20 +34,20 @@ abstract class AppWidgetTheme {
   );
   static const Color buttonLoadingIndicatorColor =
       AppColors.originalWhite;
-  static const Color buttonShadowColor = AppColors.primerColorB25;
+  static const Color buttonShadowColor = AppColors.accentB25;
 
   //!======== Selection Widgets ========
   static const Color tileBackgroundColor = AppColors.grayF4;
-  static const Color selectedTileColor = AppColors.primerColorB32;
-  static const Color tileSplashColor = AppColors.primerColorB25;
-  static const Color tileHoverColor = AppColors.primerColorB32;
+  static const Color selectedTileColor = AppColors.accentB32;
+  static const Color tileSplashColor = AppColors.accentB25;
+  static const Color tileHoverColor = AppColors.accentB32;
   static const Color tileBorderColor = AppColors.grayE4;
   static const Color tileIconColor = AppColors.gray71;
 
   //!======== Pin Input ========
   static const Color pinDefaultBackgroundColor = AppColors.grayF4;
   static const Color pinFocusedBackgroundColor =
-      AppColors.purple97B10;
+      AppColors.accentB10;
   static Color pinShadowColor = AppColors.originalBlack.withValues(
     alpha: 0.05,
   );
@@ -55,23 +55,23 @@ abstract class AppWidgetTheme {
   //!======== Toast / Notifications ========
   static const Color toastSuccessColor = AppColors.green17;
   static const Color toastErrorColor = AppColors.originalRed;
-  static const Color toastWarningColor = AppColors.purple97;
-  static const Color toastDefaultColor = AppColors.primerColor;
+  static const Color toastWarningColor = AppColors.foreground;
+  static const Color toastDefaultColor = AppColors.accent;
   static const Color toastTextColor = AppColors.originalWhite;
 
   static const Color toastAlertBackgroundLight =
       AppColors.originalWhite;
   static const Color toastAlertBackgroundDark = AppColors.black27;
-  static const Color toastAlertTextLight = AppColors.primerColor;
+  static const Color toastAlertTextLight = AppColors.accent;
   static const Color toastAlertTextDark = AppColors.originalWhite;
-  static Color toastAlertIconBackgroundLight = AppColors.primerColor
+  static Color toastAlertIconBackgroundLight = AppColors.accent
       .withValues(alpha: 0.1);
   static Color toastAlertIconBackgroundDark = AppColors.originalWhite
       .withValues(alpha: 0.1);
 
   //!======== Misc ========
-  static const Color switchActiveColor = AppColors.purple97;
-  static const Color loadingIndicatorColor = AppColors.primerColor;
+  static const Color switchActiveColor = AppColors.accent;
+  static const Color loadingIndicatorColor = AppColors.accent;
   static Color imageBackgroundColor = AppColors.originalBlack
       .withValues(alpha: 0.1);
   static Color barrierColor = AppColors.originalBlack.withValues(
@@ -91,5 +91,5 @@ abstract class AppWidgetTheme {
   static const Color scrollbarTrackColor = AppColors.grayE4;
 
   //!======== App Bar ========
-  static const Color appBarShadowColor = AppColors.primerColorB32;
+  static const Color appBarShadowColor = AppColors.accentB32;
 }

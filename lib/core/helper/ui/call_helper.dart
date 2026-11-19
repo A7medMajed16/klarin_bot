@@ -62,7 +62,7 @@ class CallHelper {
                 //   context: context,
                 //   title: "custom_widget.whatsapp".tr(),
                 //   iconPath: AppAssets.icons.whatsapp.path,
-                //   color: AppColors.green00A,
+                //   color: AppColors.green17,
                 //   onTap: () =>
                 //       launchLink('https://wa.me/$phoneNumber'),
                 // ),

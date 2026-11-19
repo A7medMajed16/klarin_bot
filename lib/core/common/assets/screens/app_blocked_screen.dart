@@ -24,26 +24,26 @@
 //               Container(
 //                 padding: const .all(12),
 //                 decoration: BoxDecoration(
-//                   color: AppColors.redDC.withValues(alpha: 0.3),
+//                   color: AppColors.originalRed.withValues(alpha: 0.3),
 //                   shape: .circle,
 //                 ),
 //                 child: const Icon(
 //                   Icons.error_rounded,
 //                   size: 50,
-//                   color: AppColors.redDC,
+//                   color: AppColors.originalRed,
 //                 ),
 //               ),
 //               const SizedBox(height: 32),
 //               Text(
 //                 "app_blocking.title".tr(),
 //                 textAlign: TextAlign.center,
-//                 style: 22.bold.copyWith(color: AppColors.whiteF9),
+//                 style: 22.bold.copyWith(color: AppColors.surface),
 //               ),
 //               const SizedBox(height: 16),
 //               Text(
 //                 "app_blocking.description".tr(),
 //                 textAlign: TextAlign.center,
-//                 style: 16.regular.copyWith(color: AppColors.gray6E),
+//                 style: 16.regular.copyWith(color: AppColors.gray71),
 //               ),
 //             ],
 //           ),

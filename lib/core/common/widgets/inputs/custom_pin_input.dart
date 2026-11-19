@@ -37,7 +37,7 @@
 //           width: 1.5,
 //           height: 25,
 //           decoration: const BoxDecoration(
-//             color: AppColors.primerColor,
+//             color: AppColors.accent,
 //             borderRadius: BorderRadius.vertical(
 //               bottom: Radius.circular(99999),
 //               top: Radius.circular(99999),
@@ -69,7 +69,7 @@
 //     width: 48,
 //     height: 48,
 //     textStyle: 24.semiBold.copyWith(
-//       color: AppColors.primerColor,
+//       color: AppColors.accent,
 //     ),
 //     decoration: BoxDecoration(
 //       color: AppWidgetTheme.pinDefaultBackgroundColor,
@@ -87,7 +87,7 @@
 //   static final PinTheme focusedPinTheme = defaultPinTheme.copyWith(
 //     decoration: BoxDecoration(
 //       color: AppWidgetTheme.pinFocusedBackgroundColor,
-//       border: Border.all(color: AppColors.primerColor, width: 2),
+//       border: Border.all(color: AppColors.accent, width: 2),
 //       borderRadius: BorderRadius.circular(8),
 //       boxShadow: [
 //         BoxShadow(
@@ -101,7 +101,7 @@
 //   );
 //   static final PinTheme submittedPinTheme = defaultPinTheme.copyWith(
 //     decoration: BoxDecoration(
-//       border: Border.all(color: AppColors.primerColor, width: 1),
+//       border: Border.all(color: AppColors.accent, width: 1),
 //       color: AppWidgetTheme.pinFocusedBackgroundColor,
 //       borderRadius: BorderRadius.circular(8),
 //       boxShadow: [

@@ -207,7 +207,7 @@ class CustomTextFormField extends StatelessWidget {
             focusedBorder:
                 focusedBorder ??
                 customOutLineBorders(
-                  borderColor: enableFocusBorder ? AppColors.primerColor : null,
+                  borderColor: enableFocusBorder ? AppColors.accent : null,
                   borderWidth: 1.5,
                 ),
           ),

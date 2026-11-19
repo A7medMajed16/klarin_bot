@@ -2,6 +2,7 @@ class AppStrings {
   //**************** App Config ****************//
   static const String appName = 'Klarin Bot';
   static const String arabicFontFamily = 'SomarSans';
+  static const String englishFontFamily = 'SpaceGrotesk';
 
   //**************** APIs Strings ****************//
   static const String accessToken = 'access_token';

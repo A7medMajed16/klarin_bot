@@ -25,14 +25,14 @@ class DateTimePicker {
         return Theme(
           data: Theme.of(context).copyWith(
             colorScheme: ColorScheme.light(
-              primary: AppColors.primerColor,
+              primary: AppColors.accent,
               onPrimary: AppColors.originalWhite,
               onSurface: AppColors.black27,
-              secondary: AppColors.primerColor,
+              secondary: AppColors.accent,
             ),
             textButtonTheme: TextButtonThemeData(
               style: TextButton.styleFrom(
-                foregroundColor: AppColors.primerColor,
+                foregroundColor: AppColors.accent,
               ),
             ),
           ),

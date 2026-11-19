@@ -95,7 +95,7 @@ class DialogHelper {
                                     width: 20,
                                     colorFilter: ColorFilter.mode(
                                       items[index].iconColor ??
-                                          AppColors.primerColor,
+                                          AppColors.accent,
                                       BlendMode.srcIn,
                                     ),
                                     fit: BoxFit.scaleDown,
@@ -106,7 +106,7 @@ class DialogHelper {
                                     style: 14.medium.copyWith(
                                       color:
                                           items[index].iconColor ??
-                                          AppColors.primerColor,
+                                          AppColors.accent,
                                     ),
                                   ),
                               ],

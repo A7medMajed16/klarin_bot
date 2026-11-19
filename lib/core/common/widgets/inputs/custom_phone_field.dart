@@ -182,7 +182,7 @@ class _CustomPhoneFieldState extends State<CustomPhoneField> {
           border: customOutLineBorders(),
           enabledBorder: customOutLineBorders(),
           focusedBorder: customOutLineBorders(
-            borderColor: AppColors.primerColor,
+            borderColor: AppColors.accent,
             borderWidth: 1.5,
           ),
         ),

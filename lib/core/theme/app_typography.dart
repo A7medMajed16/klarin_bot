@@ -14,6 +14,8 @@ class AppTypography {
     arabic: AppStrings.arabicFontFamily,
   };
 
+  static const String _defaultFontFamily = AppStrings.englishFontFamily;
+
   static const Map<Brightness, Color> _textColors = {
     Brightness.light: AppColors.originalBlack,
     Brightness.dark: AppColors.originalWhite,
@@ -29,7 +31,7 @@ class AppTypography {
   static Brightness get brightness => _brightness;
 
   static String get fontFamily =>
-      _fontFamilies[_locale] ?? _fontFamilies[arabic]!;
+      _fontFamilies[_locale] ?? _defaultFontFamily;
 
   static Color get textColor => _textColors[_brightness]!;
 

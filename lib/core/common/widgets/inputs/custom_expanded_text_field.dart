@@ -223,7 +223,7 @@ class CustomExpandedTextField extends StatelessWidget {
                     focusedBorder ??
                     customOutLineBorders(
                       borderColor: enableFocusBorder
-                          ? AppColors.primerColor
+                          ? AppColors.accent
                           : null,
                       borderWidth: 1.5,
                       borderRadius: borderRadius,

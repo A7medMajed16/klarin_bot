@@ -29,7 +29,7 @@ Future<DateTime?> showCustomDatePicker({
             color: Colors.transparent,
           ),
           colorScheme: const ColorScheme.light(
-            primary: AppColors.primerColor,
+            primary: AppColors.accent,
             onPrimary: AppColors.originalWhite,
             onSurface: AppWidgetTheme.datePickerTextColor,
           ),
@@ -45,7 +45,7 @@ Future<DateTime?> showCustomDatePicker({
           ),
           textButtonTheme: TextButtonThemeData(
             style: TextButton.styleFrom(
-              foregroundColor: AppColors.primerColor,
+              foregroundColor: AppColors.accent,
             ),
           ),
         ),
@@ -70,7 +70,7 @@ Future<DateTime?> showCustomDatePicker({
             return Theme(
               data: Theme.of(context).copyWith(
                 colorScheme: const ColorScheme.light(
-                  primary: AppColors.primerColor,
+                  primary: AppColors.accent,
                   onPrimary: AppColors.originalWhite,
                   onSurface: AppWidgetTheme.datePickerTextColor,
                 ),
@@ -81,7 +81,7 @@ Future<DateTime?> showCustomDatePicker({
                 ),
                 textButtonTheme: TextButtonThemeData(
                   style: TextButton.styleFrom(
-                    foregroundColor: AppColors.primerColor,
+                    foregroundColor: AppColors.accent,
                   ),
                 ),
               ),

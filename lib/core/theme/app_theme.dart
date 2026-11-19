@@ -21,7 +21,7 @@ class AppTheme {
     ),
     brightness: Brightness.light,
     scaffoldBackgroundColor: AppColors.originalWhite,
-    primaryColor: AppColors.primerColor,
+    primaryColor: AppColors.accent,
     appBarTheme: AppBarTheme(
       systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
         statusBarColor: Colors.transparent,
@@ -50,19 +50,19 @@ class AppTheme {
       ),
     ),
     cardTheme: CardThemeData(
-      color: AppColors.primerColor.withValues(alpha: 0.05),
-      shadowColor: AppColors.primerColor.withValues(alpha: 0.25),
+      color: AppColors.accent.withValues(alpha: 0.05),
+      shadowColor: AppColors.accent.withValues(alpha: 0.25),
       elevation: 4,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
       ),
     ),
     colorScheme: ColorScheme.fromSeed(
-      seedColor: AppColors.primerColor,
+      seedColor: AppColors.accent,
       brightness: Brightness.light,
-      primary: AppColors.primerColor,
+      primary: AppColors.accent,
       onPrimary: Colors.white,
-      secondary: AppColors.primerColor,
+      secondary: AppColors.accent,
       onSecondary: Colors.white,
       surface: Colors.white,
       onSurface: Colors.black,
@@ -70,9 +70,9 @@ class AppTheme {
       onError: Colors.white,
     ),
     textSelectionTheme: TextSelectionThemeData(
-      cursorColor: AppColors.primerColor,
-      selectionColor: AppColors.primerColor.withValues(alpha: 0.25),
-      selectionHandleColor: AppColors.primerColor,
+      cursorColor: AppColors.accent,
+      selectionColor: AppColors.accent.withValues(alpha: 0.25),
+      selectionHandleColor: AppColors.accent,
     ),
     fontFamily: AppStrings.arabicFontFamily,
     textButtonTheme: TextButtonThemeData(
@@ -88,9 +88,9 @@ class AppTheme {
       isDense: true,
       hintStyle: const TextStyle(color: Color(0xff9E9E9E)),
       labelStyle: const TextStyle(color: Color(0xff9E9E9E)),
-      focusColor: AppColors.primerColor,
+      focusColor: AppColors.accent,
       floatingLabelStyle: const TextStyle(
-        color: AppColors.primerColor,
+        color: AppColors.accent,
         fontSize: 18,
       ),
       border: OutlineInputBorder(
@@ -110,7 +110,7 @@ class AppTheme {
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(
           width: 0.5,
-          color: AppColors.primerColor.withValues(alpha: 0.6),
+          color: AppColors.accent.withValues(alpha: 0.6),
         ),
         borderRadius: BorderRadius.circular(8.0),
       ),
@@ -130,14 +130,14 @@ class AppTheme {
           ),
         ),
         backgroundColor: WidgetStateProperty.all<Color>(
-          AppColors.primerColor,
+          AppColors.accent,
         ),
         foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
         overlayColor: WidgetStateProperty.all<Color>(Colors.black26),
       ),
     ),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: AppColors.primerColor,
+      backgroundColor: AppColors.accent,
       foregroundColor: Colors.white,
       shape: CircleBorder(),
     ),
@@ -164,7 +164,7 @@ class AppTheme {
     ),
     brightness: Brightness.dark,
     scaffoldBackgroundColor: AppColors.black0D,
-    primaryColor: AppColors.primerColor,
+    primaryColor: AppColors.accent,
     appBarTheme: AppBarTheme(
       systemOverlayStyle: SystemUiOverlayStyle.light.copyWith(
         statusBarColor: Colors.transparent,
@@ -201,11 +201,11 @@ class AppTheme {
       ),
     ),
     colorScheme: ColorScheme.fromSeed(
-      seedColor: AppColors.primerColor,
+      seedColor: AppColors.accent,
       brightness: Brightness.dark,
-      primary: AppColors.primerColor,
+      primary: AppColors.accent,
       onPrimary: Colors.white,
-      secondary: AppColors.primerColor,
+      secondary: AppColors.accent,
       onSecondary: Colors.white,
       surface: const Color(0xFF1A1D27),
       onSurface: const Color(0xFFE5E7EB),
@@ -213,9 +213,9 @@ class AppTheme {
       onError: Colors.black,
     ),
     textSelectionTheme: TextSelectionThemeData(
-      cursorColor: AppColors.primerColor,
-      selectionColor: AppColors.primerColor.withValues(alpha: 0.25),
-      selectionHandleColor: AppColors.primerColor,
+      cursorColor: AppColors.accent,
+      selectionColor: AppColors.accent.withValues(alpha: 0.25),
+      selectionHandleColor: AppColors.accent,
     ),
     fontFamily: AppStrings.arabicFontFamily,
     textButtonTheme: TextButtonThemeData(
@@ -231,9 +231,9 @@ class AppTheme {
       isDense: true,
       hintStyle: const TextStyle(color: Color(0xff9E9E9E)),
       labelStyle: const TextStyle(color: Color(0xff9E9E9E)),
-      focusColor: AppColors.primerColor,
+      focusColor: AppColors.accent,
       floatingLabelStyle: const TextStyle(
-        color: AppColors.primerColor,
+        color: AppColors.accent,
         fontSize: 18,
       ),
       border: OutlineInputBorder(
@@ -253,7 +253,7 @@ class AppTheme {
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(
           width: 0.5,
-          color: AppColors.primerColor.withValues(alpha: 0.6),
+          color: AppColors.accent.withValues(alpha: 0.6),
         ),
         borderRadius: BorderRadius.circular(8.0),
       ),
@@ -273,14 +273,14 @@ class AppTheme {
           ),
         ),
         backgroundColor: WidgetStateProperty.all<Color>(
-          AppColors.primerColor,
+          AppColors.accent,
         ),
         foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
         overlayColor: WidgetStateProperty.all<Color>(Colors.white24),
       ),
     ),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
-      backgroundColor: AppColors.primerColor,
+      backgroundColor: AppColors.accent,
       foregroundColor: Colors.white,
       shape: CircleBorder(),
     ),

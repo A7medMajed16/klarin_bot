@@ -13,7 +13,7 @@ class CustomButton extends StatelessWidget {
     this.onTap,
     this.title,
     this.leading,
-    this.backGroundColor = AppColors.primerColor,
+    this.backGroundColor = AppColors.accent,
     this.isFilled = true,
     this.useGradient = true,
     this.borderColor,
@@ -52,12 +52,9 @@ class CustomButton extends StatelessWidget {
       curve: Curves.easeInOutBack,
       decoration: _showGradient
           ? BoxDecoration(
-              gradient: onTap != null
-                  ? AppColors.primerGradient
-                  : null,
-              color: onTap == null
-                  ? AppWidgetTheme.buttonDisabledColor
-                  : null,
+              color: onTap != null
+                  ? AppColors.accent
+                  : AppWidgetTheme.buttonDisabledColor,
               borderRadius: borderRadius,
               boxShadow: elevation != null
                   ? [
@@ -84,7 +81,7 @@ class CustomButton extends StatelessWidget {
                   : Colors.transparent,
           overlayColor:
               isFilled && backGroundColor != Colors.transparent
-              ? AppColors.primerColor
+              ? AppColors.accent
               : backGroundColor != Colors.transparent
               ? backGroundColor
               : borderColor,

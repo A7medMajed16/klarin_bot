@@ -54,7 +54,7 @@ class CustomCheckListTile extends StatelessWidget {
                     ? null
                     : Border.all(color: AppColors.gray71, width: 2),
 
-                gradient: value ? AppColors.primerGradient : null,
+                color: value ? AppColors.accent : null,
               ),
               child: Center(
                 child: AnimatedSwitcher(

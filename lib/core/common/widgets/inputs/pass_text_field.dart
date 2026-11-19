@@ -178,7 +178,7 @@ class _PassTextFormFieldState extends State<PassTextFormField> {
 
           textAlign: widget.textAlign ?? TextAlign.start,
           keyboardType: TextInputType.visiblePassword,
-          cursorColor: AppColors.primerColor,
+          cursorColor: AppColors.accent,
 
           onFieldSubmitted: widget.onFieldSubmitted,
           decoration: InputDecoration(
@@ -234,7 +234,7 @@ class _PassTextFormFieldState extends State<PassTextFormField> {
                 widget.focusedBorder ??
                 customOutLineBorders(
                   borderColor: widget.enableFocusBorder
-                      ? AppColors.primerColor
+                      ? AppColors.accent
                       : null,
                   borderWidth: 1.5,
                 ),
