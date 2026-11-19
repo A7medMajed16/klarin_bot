@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Components">
+<g id="Logo">
+<g id="Logo/Mark" clip-path="url(#clip0_0_1)">
+<path id="Vector" d="M54 6H16C10.4772 6 6 10.4772 6 16V54C6 59.5228 10.4772 64 16 64H54C59.5228 64 64 59.5228 64 54V16C64 10.4772 59.5228 6 54 6Z" fill="#303841"/>
+<path id="Vector_2" d="M49.5 1.5H10.5C5.52944 1.5 1.5 5.52944 1.5 10.5V49.5C1.5 54.4706 5.52944 58.5 10.5 58.5H49.5C54.4706 58.5 58.5 54.4706 58.5 49.5V10.5C58.5 5.52944 54.4706 1.5 49.5 1.5Z" fill="white" stroke="#303841" stroke-width="3"/>
+<path id="Vector_3" d="M30 15V10" stroke="#303841" stroke-width="3"/>
+<path id="Vector_4" d="M33 5H27V11H33V5Z" fill="#303841"/>
+<path id="Vector_5" d="M15 15H45C45.7957 15 46.5587 15.3161 47.1213 15.8787C47.6839 16.4413 48 17.2044 48 18V35C48 35.7956 47.6839 36.5587 47.1213 37.1213C46.5587 37.6839 45.7957 38 45 38H29L20 45V38H15C14.2044 38 13.4413 37.6839 12.8787 37.1213C12.3161 36.5587 12 35.7956 12 35V18C12 17.2044 12.3161 16.4413 12.8787 15.8787C13.4413 15.3161 14.2044 15 15 15Z" fill="#303841"/>
+<path id="Vector_6" d="M26 21H20V30H26V21Z" fill="white"/>
+<path id="Vector_7" d="M40 21H34V30H40V21Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

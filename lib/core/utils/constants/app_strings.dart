@@ -1,6 +1,6 @@
 class AppStrings {
   //**************** App Config ****************//
-  static const String appName = 'Klarin Bot';
+  static const String appName = 'KlarinBot';
   static const String arabicFontFamily = 'SomarSans';
   static const String englishFontFamily = 'SpaceGrotesk';
 
