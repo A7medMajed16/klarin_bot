@@ -15,7 +15,7 @@ import 'core/presentation/download/download_cubit.dart';
 
 import 'package:flutter/foundation.dart' show kIsWeb;
 
-import 'core/routes/web/url_strategy_web.dart';
+import 'core/routes/web/url_strategy.dart';
 import 'core/theme/theme_cubit/theme_cubit.dart';
 
 // Flag to determine if running in local development mode
